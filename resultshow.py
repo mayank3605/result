@@ -10,7 +10,8 @@ todos = []
 class Todo(BaseModel):
     id : int
     title : str
-    username: str
+    username: str 
+    contact : int
     completed: bool
 
 @app.post("/todos/")
